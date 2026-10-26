@@ -10,7 +10,9 @@
 > **이로 인한 소통의 오류를 방지하고 싶어 오펀 브랜치를 반영한 기여 그래프를 별도로 렌더링합니다**.
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1000&color=4F46E5&center=true&vCenter=true&width=600&lines=안녕하세요?!;Node.js 개발자입니다;지속성이 없는 프로젝트들은 오펀 브랜치로 관리합니다" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1000&color=4F46E5&center=true&vCenter=true&width=600&lines=
+  %EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94%3F!;
+  Node.js%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9E%85%EB%8B%88%EB%8B%A4;%EC%A0%9C%20%ED%94%84%EB%A1%9C%ED%95%84%EC%97%90%20%EC%99%80%EC%A3%BC%EC%85%94%EC%84%9C%20%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4%20%5E%5E%3B" alt="typing" />
 </p>
 
 <p align="center">
@@ -22,15 +24,15 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=seungwoo7050&theme=tokyonight&hide_border=true" alt="streak stats" height="165"/>
 </p>
 
-## 모든 브랜치 기준 잔디
+## 오펀 브랜치를 포함하는 잔디 그래프
 
 <p align="center">
   <img src="./assets/jandi.svg" alt="all-branch jandi" />
 </p>
 
-공식 기여 그래프와 달리, 소유한 공개 저장소의 **모든 브랜치**에서 제 이름으로 된 커밋을 모아 날짜별로 집계한 그래프입니다.
+공식 기여 그래프와 달리, 소유한 공개 저장소의 **모든 브랜치**에서 제 이름으로 된 커밋을 모아 날짜별로 집계한 최근 1년 그래프입니다.
 
-[`.github/workflows/jandi.yml`](.github/workflows/jandi.yml)이 매일 자동으로 다시 계산해서 커밋합니다.
+ci 워크플로우가 매일 자동으로 갱신합니다.
 
 ## 지금 만들고 있는 것
 

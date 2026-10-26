@@ -138,8 +138,9 @@ const SUMMARY_Y = 10
 const MONTH_LABEL_Y = 24
 const GRID_TOP = 30
 
-function renderSvg(counts, { daysBack, total, includePrivate }) {
+function renderSvg(counts, { daysBack }) {
   const weeks = buildWeeks(counts, daysBack)
+  const total = weeks.reduce((sum, week) => sum + week.reduce((s, day) => s + day.count, 0), 0)
   const width = LEFT + weeks.length * (CELL + GAP) + GAP
   const height = GRID_TOP + 7 * (CELL + GAP) + GAP
 
@@ -175,11 +176,8 @@ function renderSvg(counts, { daysBack, total, includePrivate }) {
     })
     .join('')
 
-  const scope = includePrivate ? '공개+비공개 저장소' : '공개 저장소'
-  const summary = `모든 브랜치 · ${scope} 기준 커밋 ${total}개`
-
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
-  <text x="${LEFT}" y="${SUMMARY_Y}" font-size="12" fill="#57606a">${summary}</text>
+  <text x="${LEFT}" y="${SUMMARY_Y}" font-size="12" fill="#57606a">최근 1년 커밋 ${total}개</text>
   ${monthLabels}
   ${weekdayLabels}
   ${cells}
@@ -187,9 +185,9 @@ function renderSvg(counts, { daysBack, total, includePrivate }) {
 }
 
 const counts = await collect()
-const total = [...counts.values()].reduce((a, b) => a + b, 0)
-const svg = renderSvg(counts, { daysBack: DAYS_BACK, total, includePrivate: INCLUDE_PRIVATE })
+const allTimeTotal = [...counts.values()].reduce((a, b) => a + b, 0)
+const svg = renderSvg(counts, { daysBack: DAYS_BACK })
 
 await mkdir(path.dirname(path.resolve(OUT_PATH)), { recursive: true })
 await writeFile(path.resolve(OUT_PATH), svg)
-console.log(`wrote ${OUT_PATH} (${total} commits across ${counts.size} days, includePrivate=${INCLUDE_PRIVATE})`)
+console.log(`wrote ${OUT_PATH} (${allTimeTotal} commits all-time across ${counts.size} days, includePrivate=${INCLUDE_PRIVATE})`)
