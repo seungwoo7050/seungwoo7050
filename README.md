@@ -10,9 +10,7 @@
 > **이로 인한 소통의 오류를 방지하고 싶어 오펀 브랜치를 반영한 기여 그래프를 별도로 렌더링합니다**.
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1000&color=4F46E5&center=true&vCenter=true&width=600&lines=
-  %EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94%3F!;
-  Node.js%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9E%85%EB%8B%88%EB%8B%A4;%EC%A0%9C%20%ED%94%84%EB%A1%9C%ED%95%84%EC%97%90%20%EC%99%80%EC%A3%BC%EC%85%94%EC%84%9C%20%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4%20%5E%5E%3B" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1000&color=4F46E5&center=true&vCenter=true&width=600&lines=%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94%3F!;Node.js%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9E%85%EB%8B%88%EB%8B%A4;%EC%A0%9C%20%ED%94%84%EB%A1%9C%ED%95%84%EC%97%90%20%EC%99%80%EC%A3%BC%EC%85%94%EC%84%9C%20%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4%20%5E%5E" alt="typing" />
 </p>
 
 <p align="center">
