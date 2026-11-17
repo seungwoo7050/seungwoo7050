@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <a href="https://seungwoo7050.vercel.app"><b>Portfolio</b></a> ·
+  <a href="https://seungwoo7050.vercel.app"><b>Portfolio</b></a> |
   <a href="mailto:seungwoo7050@gmail.com">seungwoo7050@gmail.com</a>
 </p>
 
