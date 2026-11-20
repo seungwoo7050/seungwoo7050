@@ -28,10 +28,3 @@
 <p align="center">
   <img src="./metrics.plugin.isocalendar.svg" alt="Commit Calendar"/>
 </p>
-
----
-
-<!-- Profile Views -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=seungwoo7050&color=blueviolet&style=flat-square" alt="Profile Views"/>
-</p>
